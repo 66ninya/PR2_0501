@@ -1,0 +1,151 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+header {
+	width: 1000px;
+	margin: 20px auto;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__logo {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.logo__icon {
+	border-radius: 50%;
+	background-color: black;
+	width: 50px;
+	height: 50px;
+}
+
+.logo__name {
+	width: 100px;
+	height: 30px;
+	background-color: black;
+}
+
+.header__nav {
+	display: flex;
+	gap: 10px;
+}
+
+.header__nav .nav__item {
+	height: 30px;
+	width: 70px;
+	background-color: black;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1000px;
+	margin: 40px auto;
+}
+
+.hero__content {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 500px;
+}
+
+.content__title {
+	font-size: 2.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.content__text {
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #333333;
+}
+
+.hero__image {
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	border-radius: 50%;
+	flex-shrink: 0;
+}
+
+.news {
+	width: 1000px;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.news__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 40px;
+}
+
+.news__image {
+	width: 300px;
+	height: 160px;
+	background-color: black;
+	flex-shrink: 0;
+}
+
+.news__text-card {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.text-card__title {
+	font-size: 1.1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.text-card__text {
+	font-size: 0.9rem;
+	line-height: 1.4;
+	color: #333333;
+}
+
+.news__icon-card {
+	width: 300px;
+	display: flex;
+	gap: 15px;
+}
+
+.icon-card__icon {
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	flex-shrink: 0;
+}
+
+.icon-card__content {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.icon-card__title {
+	font-size: 1.1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.icon-card__text {
+	font-size: 0.9rem;
+	line-height: 1.4;
+	color: #333333;
+}
